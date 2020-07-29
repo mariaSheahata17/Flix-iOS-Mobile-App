@@ -13,6 +13,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
     
     
     @IBOutlet weak var tableView: UITableView!
+    
     var movies = [[String:Any]]()
 
     override func viewDidLoad() {
@@ -58,6 +59,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         cell.titleLable.text = title
         cell.synopsisLabel.text = synopsis
         
+        // getting poster URL from the API
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
