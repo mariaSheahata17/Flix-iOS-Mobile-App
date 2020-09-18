@@ -17,4 +17,4 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ![flix4](https://user-images.githubusercontent.com/49815957/93291640-a05ddf00-f7b1-11ea-8b7d-868493acd757.gif)
 
 
-# Time spent: 7 hours
+Time spent: 7 hours
